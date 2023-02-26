@@ -1,0 +1,22 @@
+//居中
+.abs-center(@type:absolute){
+    position: @type;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+//左上
+.abs-left-top(@type:absolute){
+    position: @type;
+    left: 0;
+    top: 0;
+}
+
+//flex铺满
+.self-fill(@pos: absolute) {
+    position: @pos;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
